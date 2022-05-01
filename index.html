@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- grid -->
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER START -->
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="/" class="logo-link">
+                        <img src="/img/Stores/logo.svg" alt="logo.svg">
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <div class="sign-in__btn">
+                        <a href="#!" class="sign-in">
+                            <span class="sign-in_text">Войти</span>
+                        </a>
+                    </div>
+                    <div class="basket__wrapper">
+                        <a href="#!" class="basket-link">
+                            <img src="/img/Stores/basket.svg" alt="basket.svg">
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main class="main">
+        <section class="search">
+            <div class="wrapper">
+                <div class="search__wrapper">
+                    <input type="text" name="search__text" class="search__field" placeholder="Поиск по ресторанам и кухням">
+                </div>
+            </div>
+        </section>
+
+        <section class="cards__menu">
+            <div class="wrapper">
+                <div class="card__menu-title">
+                    <h1 class="menu-title">
+                        Рестораны в Москве
+                    </h1>
+                </div>
+
+                <div class=".card__menu-list">
+                    <div class="row">
+                        <div class="card__menu-item col-md-4 col-sm-6 col-xs-12">
+                            <a href="pushkin.html" class="card__menu-link">
+                                <div class="card__menu-item_pic">
+                                    <img src="./img/photo1.png" alt="photo1">
+                            </div>
+                            </a>
+                            <div class="card__menu-item_desk">
+                                <a href="pushkin.html" class="card__menu-link">
+                                    <p id="title">
+                                        Макдоналдс — Газетный
+                                    </p>
+                                </a>
+                                <p id="category">
+                                    ₽₽ • Бургеры
+                                </p>
+                                <p id="time">
+                                    25 - 35 мин
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__menu-item col-md-4 col-sm-6 col-xs-12">
+                            <a href="pushkin.html" class="card__menu-link">
+                                <div class="card__menu-item_pic">
+                                    <img src="./img/photo2.png" alt="photo2">
+                                </div>
+                            </a>
+                            <div class="card__menu-item_desk">
+                                <a href="pushkin.html" class="card__menu-link">
+                                    <p id="title">
+                                        DimSum & Co — ЦДМ
+                                    </p>
+                                </a>
+                                <p id="category">
+                                    ₽ • Японская • Китайская • Азиатская
+                                </p>
+                                <p id="time">
+                                    40 - 50 мин
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__menu-item col-md-4 col-sm-6 col-xs-12">
+                            <a href="pushkin.html" class="card__menu-link">
+                                <div class="card__menu-item_pic">
+                                    <img src="./img/photo3.png" alt="photo3">
+                                </div>
+                            </a>
+                            <div class="card__menu-item_desk">
+                                <a href="pushkin.html" class="card__menu-link">
+                                    <p id="title">
+                                        ДвижОК — Манежная
+                                    </p>
+                                </a>
+                                <p id="category">
+                                    ₽ • Американская • Европейская
+                                </p>
+                                <p id="time">
+                                    35 - 45 мин
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__menu-item col-md-4 col-sm-6 col-xs-12">
+                            <a href="pushkin.html" class="card__menu-link">
+                                <div class="card__menu-item_pic">
+                                    <img src="./img/photo4.png" alt="photo4">
+                                </div>
+                            </a>
+                            <div class="card__menu-item_desk">
+                                <a href="pushkin.html" class="card__menu-link">
+                                    <p id="title">
+                                        НЯ — NHA
+                                    </p>
+                                </a>
+                                <p id="category">
+                                    ₽₽ • Вьетнамская
+                                </p>
+                                <p id="time">
+                                    30 - 40 мин
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__menu-item col-md-4 col-sm-6 col-xs-12">
+                            <a href="pushkin.html" class="card__menu-link">
+                                <div class="card__menu-item_pic">
+                                    <img src="./img/photo5.png" alt="photo5">
+                                </div>
+                            </a>
+                            <div class="card__menu-item_desk">
+                                <a href="pushkin.html" class="card__menu-link">
+                                    <p id="title">
+                                        Точка Дзы — Цветной
+                                    </p>
+                                </a>
+                                <p id="category">
+                                    ₽₽ • Вьетнамская
+                                </p>
+                                <p id="time">
+                                    40 - 50 мин
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__menu-item col-md-4 col-sm-6 col-xs-12">
+                            <a href="pushkin.html" class="card__menu-link">
+                                <div class="card__menu-item_pic">
+                                    <img src="./img/photo6.png" alt="photo6">
+                                </div>
+                            </a>
+                            <div class="card__menu-item_desk">
+                                <a href="pushkin.html" class="card__menu-link">
+                                    <p id="title">
+                                        Cinnabon
+                                    </p>
+                                </a>
+                                <p id="category">
+                                    ₽ • Выпечка • Десерты • Капкейки
+                                </p>
+                                <p id="time">
+                                    25 - 35 мин
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__menu-item col-md-4 col-sm-6 col-xs-12">
+                            <a href="pushkin.html" class="card__menu-link">
+                                <div class="card__menu-item_pic">
+                                    <img src="./img/photo7.png" alt="photo7">
+                                </div>
+                            </a>
+                            <div class="card__menu-item_desk">
+                                <a href="pushkin.html" class="card__menu-link">
+                                    <p id="title">
+                                        PIZZELOVE
+                                    </p>
+                                </a>
+                                <p id="category">
+                                    ₽₽ • Пицца
+                                </p>
+                                <p id="time">
+                                    15 - 25 мин
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__menu-item col-md-4 col-sm-6 col-xs-12">
+                            <a href="pushkin.html" class="card__menu-link">
+                                <div class="card__menu-item_pic">
+                                    <img src="./img/photo8.png" alt="photo8">
+                                </div>
+                            </a>
+                            <div class="card__menu-item_desk">
+                                <a href="pushkin.html" class="card__menu-link">
+                                    <p id="title">
+                                        Zю кафе — Тверская
+                                    </p>
+                                </a>
+                                <p id="category">
+                                    ₽₽ • Японская
+                                </p>
+                                <p id="time">
+                                    25 - 35 мин
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card__menu-item col-md-4 col-sm-6 col-xs-12">
+                            <a href="pushkin.html" class="card__menu-link">
+                                <div class="card__menu-item_pic">
+                                    <img src="./img/photo9.png" alt="photo9">
+                                </div>
+                            </a>
+                            <div class="card__menu-item_desk">
+                                <a href="pushkin.html" class="card__menu-link">
+                                    <p id="title">
+                                        Bar BQ Cafe — Манежная
+                                    </p>
+                                </a>
+                                <p id="category">
+                                    ₽₽₽ • Европейская
+                                </p>
+                                <p id="time">
+                                    30 - 40 мин
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+        <div class="footer__wrap">
+            <div class="white-logo__wrapper">
+                <div class="white-logo">
+                    <img src="./img/Stores/white-logo.svg" alt="white-logo">
+                </div>
+            </div>
+            <hr>
+            <div class="footer__content">
+                <div class="footer__content-left">
+                    <div class="language">
+                        <div class="world__wrapper">
+                            <div class="world__wrapper-ico">
+                                <img src="/img/Stores/world.svg" alt="world">
+                            </div>
+                            <p class="language-text">
+                                Русский
+                            </p>
+                        </div>
+                        <div class="arrow__wrapper">
+                            <a href="#!">
+                                <img src="/img/Stores/arrow.svg" alt="arrow" id="arrow__wrapper">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="social-title">
+                            <p id="sharp">
+                                #
+                            </p>
+                            <p id="UberEats">
+                                UberEats
+                            </p>
+                        </div>
+                        <div class="social-links">
+                            <div class="social-links__item">
+                                <a href="#!">
+                                    <img src="/img/Stores/facebook.svg" alt="facebook">
+                                </a>
+                            </div>
+                            <div class="social-links__item">
+                                <a href="#!">
+                                    <img src="/img/Stores/twitter.svg" alt="twitter">
+                                </a>
+                            </div>
+                            <div class="social-links__item">
+                                <a href="#!">
+                                    <img src="/img/Stores/instagram.svg" alt="instagram">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#!" class="footer__list-item-link">
+                                Об UberEats
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#!" class="footer__list-item-link">
+                                Станьте партнёром по доставке
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#!" class="footer__list-item-link">
+                                Станьте парнёром-рестораном
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#!" class="footer__list-item-link">
+                                Все города
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#!" class="footer__list-item-link">
+                                Цены
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#!" class="footer__list-item-link">
+                                Помощь
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#!" class="footer__list-item-link">
+                                FAQs
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <hr>
+            <div class="download__list">
+                <div class="download__list-item-appstore">
+                    <a href="#!">
+                        <img src="/img/footer/AppStore.png" alt="AppStore">
+                    </a>
+                </div>
+                <div class="download__list-item-googleplay">
+                    <a href="#!">
+                        <img src="/img/footer/GooglePlay.png" alt="AppStore">
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="additionally">
+                <p class="additionally-item">
+                    <a href="#!" class="additionally-item-link">
+                        © 2017 Uber Technologies Inc.
+                    </a>
+                </p>
+                <p class="additionally-item">
+                    <a href="#!" class="additionally-item-link">
+                        Обработка персональных данных
+                    </a>
+                </p>
+                <p class="additionally-item">
+                    <a href="#!" class="additionally-item-link">
+                        Пользовательское соглашение
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- BUTTON UP START -->
+    <section class="btn-up">
+        <a href="#" class="btn-up-link">
+            <div class="btn-up__wrap">
+                <img src="/img/Stores/btn_arr.svg" alt="btn_arr" id="btn-up__arrow">
+            </div>
+        </a>
+    </section>
+    <!-- BUTTON UP END -->
+</body>
+</html>
